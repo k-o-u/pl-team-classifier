@@ -1,0 +1,93 @@
+body {
+    min-width: 960px;
+    min-height: 600px;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 70px;
+    display: flex;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px 25px;
+}
+
+.header_img {
+    height: 25px;
+    margin: 15px 25px;
+}
+
+.main {
+    background-image: url(./paleague.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    background-size: 70%;
+    margin: 30px;
+}
+
+.mask {
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+}
+
+h2 {
+    color: #444444;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    color: #444444;
+    text-align: center;
+}
+
+.notify {
+    margin: 30px 0px;
+    color: red;
+}
+
+.msg {
+    margin: 70px 0px 30px 0px;
+}
+
+.up_img {
+    text-align: center;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.answer {
+    color: #444444;
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+.footer_img {
+    height: 25px;
+    margin: 15px 25px;
+}
+
+small {
+    margin: 15px 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
